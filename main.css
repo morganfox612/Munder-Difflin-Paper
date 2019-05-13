@@ -1,10 +1,25 @@
+body {
+  background-color: ghostwhite;
+}
+
 nav {
-  background-color: lightgrey;
-  padding: 20px;
+  background-color: lightsteelblue;
   text-align: center;
   padding-top: none;
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+#logo {
+  image: url("https://merchant-demo.herokuapp.com/img/MunderDifflin.png");
+  width: 50px;
+  height: 50px;
+}
+
+.links {
+  padding-bottom: 5%;
+  padding-left: 2%;
 }
 
 nav ul {
@@ -15,4 +30,146 @@ nav li {
   list-style-type: none;
   display: inline-block;
   padding: 15px 15px 15px 15px;
+  color: rgb(21, 45, 84);
+}
+
+.links {
+  color: rgb(21, 45, 84);
+}
+
+a:hover {
+  background-size: 100% 4px;
+}
+
+a:active {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  background-image: linear-gradient(white, white);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 4px;
+  transition: background-size .5s;
+}
+
+section {
+ display: grid;
+ grid-template: 650px / 500px 500px;
+ grid-gap: 10px;
+ padding-left: 15%;
+}
+
+.div1 {
+  padding-top: 20%;
+  display: grid;
+  grid-template: 150px 150px 150px / 150px 150px 150px;
+  grid-gap: 5px;
+}
+
+.div2 {
+  background-image: url("http://clipart-library.com/images/dT9reeLXc.png");
+  background-size: cover;
+  text-align: center;
+}
+
+p {
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 25%;
+  padding-left: 6%;
+  padding-right: 6%;
+  font-size: 25px;
+}
+
+.Overlay {
+  padding-top: 3%;
+  font-size: 20px;
+  color: black;
+  opacity: 0;
+  transition: .5s ease;
+  text-align: center;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+  background: url("https://evermedia.co/wp-content/uploads/2018/07/animat-paper-airplane-color.gif");
+  background-size: 150px ;
+  background-color: white;
+
+}
+
+.container:hover .Overlay {
+  opacity: 1;
+}
+
+#dwight {
+  background: url("https://vignette.wikia.nocookie.net/theoffice/images/c/c5/Dwight_.jpg/revision/latest/scale-to-width-down/2000?cb=20170701082424");
+  background-size: 150px;
+}
+
+#jim {
+  background: url("https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Jim-halpert.jpg/220px-Jim-halpert.jpg");
+  background-size: 150px;
+}
+
+#pam {
+  background: url("https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Pam_Beesley.jpg/220px-Pam_Beesley.jpg");
+  background-size: 150px;
+}
+
+#stanely {
+  background: url("https://vignette.wikia.nocookie.net/theoffice/images/2/23/Stanley_Hudson.jpg/revision/latest?cb=20170701085445");
+  background-size: 150px;
+}
+
+#kevin {
+  background: url("https://vignette.wikia.nocookie.net/theoffice/images/b/b2/2009Kevincropped.PNG/revision/latest/scale-to-width-down/350?cb=20170701083657");
+  background-size: 150px;
+}
+
+#michael {
+  background: url("https://vignette.wikia.nocookie.net/theoffice/images/0/02/Michael_Scott.jpg/revision/latest/scale-to-width-down/350?cb=20170701090332");
+  background-size: 150px;
+}
+
+#creed {
+  background: url("https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/CreedBratton%28TheOffice%29.jpg/220px-CreedBratton%28TheOffice%29.jpg");
+  background-size: 150px;
+}
+
+#kelly {
+  background: url("https://i.pinimg.com/originals/8e/e4/26/8ee426c9225e90dd38b46e0cbb65d16d.png");
+  background-size: 150px;
+}
+
+#andy {
+  background: url("https://vignette.wikia.nocookie.net/theoffice/images/b/b5/Andy_Bernard.jpg/revision/latest/scale-to-width-down/2000?cb=20170701084205");
+  background-size: 150px;
+}
+
+footer {
+  text-align: center;
+  background-color:
+}
+
+footer ul {
+  list-style: none;
+  background-color: lightsteelblue;
+}
+footer li {
+  overflow: hidden;
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px 15px 15px 15px;
+  color: rgb(21, 45, 84);
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding-bottom: 2%;
+  color: rgb(21, 45, 84);
 }
