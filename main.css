@@ -73,14 +73,16 @@ a {
   transition: background-size .5s;
 }
 
-section {
+#sec1 {
+  text-align: center;
+}
+
+ #sec2 {
  display: grid;
  grid-template: 650px / 500px 500px;
  grid-gap: 10px;
  padding-left: 15%;
 }
-
-
 
 .div1 {
   padding-top: 20%;
@@ -123,7 +125,6 @@ p {
   background: url("https://evermedia.co/wp-content/uploads/2018/07/animat-paper-airplane-color.gif");
   background-size: 150px ;
   background-color: white;
-
 }
 
 .container:hover .Overlay {
