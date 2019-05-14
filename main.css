@@ -1,3 +1,16 @@
+.hidden {
+  opacity: 0;
+}
+
+@keyframes fade-in {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.show {
+  animation: fade-in 0.6s;
+}
+
 body {
   background-color: ghostwhite;
 }
@@ -20,6 +33,12 @@ nav {
 .links {
   padding-bottom: 5%;
   padding-left: 2%;
+}
+
+#logo {
+  width: 200px;
+  height: 100px;
+  border: 3px solid white;
 }
 
 nav ul {
@@ -50,7 +69,7 @@ a {
   background-image: linear-gradient(white, white);
   background-position: 50% 100%;
   background-repeat: no-repeat;
-  background-size: 0% 4px;
+  background-size: 0% 3px;
   transition: background-size .5s;
 }
 
@@ -61,11 +80,17 @@ section {
  padding-left: 15%;
 }
 
+
+
 .div1 {
   padding-top: 20%;
   display: grid;
   grid-template: 150px 150px 150px / 150px 150px 150px;
   grid-gap: 5px;
+}
+
+h2 {
+  justify-content: center;
 }
 
 .div2 {
@@ -78,9 +103,10 @@ p {
   font-family: sans-serif;
   text-align: center;
   padding-top: 25%;
-  padding-left: 6%;
-  padding-right: 6%;
+  padding-left: 8%;
+  padding-right: 8%;
   font-size: 25px;
+
 }
 
 .Overlay {
