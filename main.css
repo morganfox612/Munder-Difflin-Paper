@@ -52,6 +52,15 @@ nav li {
   color: rgb(21, 45, 84);
 }
 
+.inputnav {
+  float: right;
+  padding: 6px;
+  border: 3px solid white;
+  margin-top: 45px;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
 .links {
   color: rgb(21, 45, 84);
 }
@@ -93,6 +102,7 @@ a {
 
 h2 {
   justify-content: center;
+  padding-top: 50px;
 }
 
 .div2 {
@@ -107,8 +117,16 @@ p {
   padding-top: 25%;
   padding-left: 8%;
   padding-right: 8%;
-  font-size: 25px;
+  font-size: 20px;
+  text-align:justify;
+  text-justify:inter-word;
+}
 
+.inputform {
+  padding-top: 10px;
+  width: 60%;
+  font-size: 15px;
+  border: 2px solid rgb(21, 45, 84);
 }
 
 .Overlay {
@@ -199,4 +217,49 @@ h1 {
   font-size: 18px;
   padding-bottom: 2%;
   color: rgb(21, 45, 84);
+}
+
+.slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.slide {
+  display: none;
+}
+
+.text {
+  color: black;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  margin: 0 2px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: lightsteelblue;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
 }

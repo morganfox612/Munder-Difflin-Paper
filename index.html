@@ -14,23 +14,29 @@
         <li class="links"><a href="#">Contact</a></li>
         <li class="links">|</li>
         <li class="links"><a href="#">Products</a></li>
+        <input class="inputnav" type="text" placeholder="Search..">
       </ul>
     </nav>
   </head>
   <body>
     <section id="sec1" class="slideshow">
       <div class="slide fade">
-        <img src="https://derekberry.files.wordpress.com/2012/03/paper_boxes.jpg" style="100%">
+        <img id="pic3" src="https://derekberry.files.wordpress.com/2012/03/paper_boxes.jpg" style="100%">
        <div class="text">We sell paper</div>
       </div>
       <div class="slide fade">
-        <img src="https://www.parkerperformingarts.org/wp-content/uploads/2016/05/calendar-e1469396470955.jpg" style="100%">
-       <div class="text">We sell paper</div>
+        <img id="pic2" src="https://www.parkerperformingarts.org/wp-content/uploads/2016/05/calendar-e1469396470955.jpg" style="100%">
+       <div class="text">We sell calendars</div>
       </div>
       <div class="slide fade">
-        <img src="https://cdn.mycreativeshop.com/images/templates/16703/travel-flyers-::-vacation-packages-flyer-template-32440-thumb1.jpg" style="100%">
-       <div class="text">We sell paper</div>
+        <img id ="pic3" src="https://cdn.mycreativeshop.com/images/templates/16703/travel-flyers-::-vacation-packages-flyer-template-32440-thumb1.jpg" style="100%">
+       <div class="text">We make flyers</div>
       </div>
+      <div style="text-align:center">
+        <span class="dot" onclick="Slide(1)"></span>
+        <span class="dot" onclick="Slide(2)"></span>
+        <span class="dot" onclick="Slide(3)"></span>
+     </div>
     </section>
     <section id="sec2">
    <div class="div1 hidden" id="div1">
@@ -63,11 +69,19 @@
     </div>
    </div>
    <div class="div2">
-     <p>Welcome to Munder Difflin Paper Company! Our goal is to help you with all of your paper needs. We do things such as: make calendars, supply you with paper, create posters, and create flyers all at a reasonable price. We have hands-on customer service support which allows our customers to continuously receive the attention that is needed. We hope that you too choose to join the Munder Difflin Paper Family.</p></div>
- </section>
-  <script src="main.js"></script>
-  </body>
-  <footer>
+     <p>Welcome to Munder Difflin Paper Company! Our goal is to help you with all of your paper needs. We do things such as: make calendars, supply you with paper, create posters, and create flyers all at a reasonable price. We have hands-on customer service support which allows our customers to continuously receive the attention that is needed. We hope that you too choose to join the Munder Difflin Paper Family.<br>Join The Munder Difflin Paper Family Below!</p>
+     <form>
+      Enter Your Email Address:<br>
+      <input class="inputform" type="text" name="email"><br>
+      Enter Your Paper Needs:<br>
+      <input class="inputform" type="text" name="needs"><br><br>
+   <input type="submit" value="Submit">
+   </form>
+   </div>
+    </section>
+    <script src="main.js"></script>
+    </body>
+    <footer>
     <ul id="list2">
       <li><a href="https://www.facebook.com/">Follow us on Facebook</a></li>
         <li>|</li>
